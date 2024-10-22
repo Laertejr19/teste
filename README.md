@@ -30,7 +30,7 @@ CREATE TABLE tb_clientes (
   cpf_cnpj varchar(45) DEFAULT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
+```
 # 3. Tabela tb_usuarios
 A tabela tb_usuarios armazena informações sobre os usuários do sistema.
 ```sql
@@ -47,7 +47,7 @@ CREATE TABLE tb_usuarios (
 
 População Inicial (Exemplo)
 Para popular as tabelas com dados iniciais, utilize os seguintes comandos:
-
+```sql
 -- Populando a tabela tb_clientes
 INSERT INTO tb_clientes VALUES (1, 'aloha', 'havai', '8898', 'sim', '9988');
 
@@ -58,7 +58,7 @@ INSERT INTO tb_usuarios VALUES
 (3, 'NomeB', 'ExemploA', 'exemploB', 'exemploB'),
 (9, 'NomeC', 'ExemploB', 'ExemploC', 'exemploC'),
 (11, 'NomeD', 'ExemploC', 'exemploD', 'exemploD');
-
+```
 ### Explicação das Seções
 
 - **Título**: Indica o propósito do README.
