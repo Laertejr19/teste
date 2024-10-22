@@ -5,7 +5,7 @@ Este repositório contém scripts SQL para a criação e população inicial do 
 
 ## Estrutura do Banco de Dados
 
-### 1. Tabela tb_agenda
+# 1. Tabela tb_agenda
 A tabela `tb_agenda` armazena informações sobre os compromissos agendados.
 
 ```sql
@@ -18,7 +18,7 @@ CREATE TABLE tb_agenda (
   PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-### 2. Tabela tb_clientes
+# 2. Tabela tb_clientes
 A tabela tb_clientes armazena informações sobre os clientes.
 
 CREATE TABLE tb_clientes (
@@ -31,7 +31,7 @@ CREATE TABLE tb_clientes (
   PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-### 3. Tabela tb_usuarios
+# 3. Tabela tb_usuarios
 A tabela tb_usuarios armazena informações sobre os usuários do sistema.
 CREATE TABLE tb_usuarios (
   id int NOT NULL AUTO_INCREMENT,
