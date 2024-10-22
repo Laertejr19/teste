@@ -17,10 +17,10 @@ CREATE TABLE tb_agenda (
   nome_cli varchar(100) DEFAULT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
+```
 # 2. Tabela tb_clientes
 A tabela tb_clientes armazena informações sobre os clientes.
-
+```sql
 CREATE TABLE tb_clientes (
   id int NOT NULL AUTO_INCREMENT,
   nome varchar(45) DEFAULT NULL,
@@ -33,6 +33,7 @@ CREATE TABLE tb_clientes (
 
 # 3. Tabela tb_usuarios
 A tabela tb_usuarios armazena informações sobre os usuários do sistema.
+```sql
 CREATE TABLE tb_usuarios (
   id int NOT NULL AUTO_INCREMENT,
   nome varchar(45) DEFAULT NULL,
